@@ -50,11 +50,16 @@ export https_proxy=$HTTP_PROXY
 Open MSYS shell and install developemnt environment
 
 ```bash
-pacman -S base-devel gcc cmake
+pacman -S base-devel gcc cmake ninja
 ```
 
+### Clone repository
 
+```bash
+git clone https://github.com/DongHoonPark/cmake_getting_started
+```
 
 ## Contents
 
 1. [Basic of compiler](01_basic_of_compiler/Readme.md)
+2. [Basic of cmake]()
