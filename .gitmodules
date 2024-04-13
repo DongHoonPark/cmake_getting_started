@@ -1,0 +1,3 @@
+[submodule "05_external_library/example_coost/coost"]
+	path = 05_external_library/example_coost/coost
+	url = https://github.com/idealvin/coost
