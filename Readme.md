@@ -50,8 +50,10 @@ export https_proxy=$HTTP_PROXY
 Open MSYS shell and install developemnt environment
 
 ```bash
-pacman -S base-devel gcc cmake ninja
+pacman -S base-devel mingw-w64-x86_64-cmake mingw-w64-x86_64-gcc ninja 
 ```
+
+Add ```C:\msys64\mingw64\bin``` to system environment variable
 
 ### Clone repository
 

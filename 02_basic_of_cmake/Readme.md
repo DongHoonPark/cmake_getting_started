@@ -23,6 +23,7 @@ The CMakeLists.txt file serves as a configuration file for CMake, a cross-platfo
 The minimal example for single cpp file build is like below.
 
 ```cmake
+cmake_minimum_required(VERSION 3.10)
 project(BASIC_OF_CMAKE)
 
 set(sources main.cpp)
@@ -60,3 +61,15 @@ Now you can find main.exe in build folder
   - main.cpp
   - CMakeLists.txt
 ```
+
+## How to use CMake with Vscode
+
+An official guide from vscode is here! 
+https://code.visualstudio.com/docs/cpp/cmake-linux
+
+## Practice
+
+There is ```practice``` folder in ```02_basic_of_cmake```
+It includes ```happy.cpp``` and ```include/happy.h``` which is same with previous session.
+
+Let's write CMakeLists which can compile the procject.
