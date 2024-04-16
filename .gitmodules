@@ -2,3 +2,9 @@
 	path = 05_external_library/example_coost/coost
 	url = https://github.com/idealvin/coost
 
+[submodule ".\\05_external_library\\example_json\\json"]
+	path = .\\05_external_library\\example_json\\json
+	url = https://github.com/nlohmann/json
+[submodule ".\\05_external_library\\practice_sort\\cpp-sort"]
+	path = .\\05_external_library\\practice_sort\\cpp-sort
+	url = https://github.com/Morwenn/cpp-sort
